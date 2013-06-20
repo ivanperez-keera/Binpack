@@ -1,0 +1,23 @@
+Version 0.3.1 (8/4/2009):
+  - Fix trailing whitespace in description. [Brian Lewis <brian@lorf.org>]
+  - Spelling corrections. [Brian Lewis <brian@lorf.org>]
+  - Enable -Wall and fix a bunch of warnings. [Brian Lewis <brian@lorf.org>]
+  - Silence some more warnings.
+  - Compile with -fno-warn-unused-binds -fno-warn-unused-imports until
+    the QuickCheck tests have moved to their own module. If enabled, the options    add too much noise.
+
+Version 0.3 (8/3/2009):
+  - Cabalized module.
+  - First release on HackageDB.
+  - Simplified API.
+  - Re-implementation of ModifiedFirstFit heuristic based on
+    (Yue and Zhang, 1995).
+  - Added haddock documentation.
+  - Added first QuickCheck tests.
+
+Version 0.2 (January 2009):
+  - minor bugfixes and example updates
+
+Version 0.1:
+  - initial implementation
+  - released at http://www.cs.unc.edu/~bbb under BSD3 license
